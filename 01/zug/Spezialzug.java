@@ -1,5 +1,5 @@
 public class Spezialzug extends Gueterzug {
-    void sicher(){
+    void sichern(){
         System.out.println("Ich checke ...");
     }
 }

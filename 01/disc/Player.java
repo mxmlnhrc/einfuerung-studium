@@ -3,11 +3,11 @@ public class Player {
     private IDisc disc;
 
     public void insertDisc(IDisc disc){
-        // private IDisc neuen Wert zuweisen
+        // privaten IDisc neuen Wert zuweisen
         this.disc = disc;
     }
 
-    // abspielen
+    // abspielen der Disc
     public void play(){
         disc.search();
         disc.play();
