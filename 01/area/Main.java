@@ -1,13 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        //Initialisieren der Klassen
+        // Initialisieren der Figuren
         Quadrat quadrat = new Quadrat();
         Circle circle = new Circle();
 
-        // Aufruf Quadrat
+        // Quadrat aufrufen
         quadrat.getArea();
         quadrat.getCircumference();
-        //Aufruf Kreis
+
+        // Kreis aufrufen
         circle.getArea();
         circle.getCircumference();
     }
