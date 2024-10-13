@@ -1,4 +1,4 @@
-public class Mobile extends Phone {
+public class Mobile extends Telephone {
     void dial(){
         System.out.println("Piep");
     }

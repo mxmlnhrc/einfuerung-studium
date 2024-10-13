@@ -1,6 +1,5 @@
-public class Smartphone extends Phone{
+public class Smartphone extends Telephone{
 
-    @Override
     void dial() {
         System.out.println("Klick");
     }
