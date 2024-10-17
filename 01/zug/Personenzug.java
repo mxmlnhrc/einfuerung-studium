@@ -1,16 +1,11 @@
 public class Personenzug extends Zug{
-    private int wagons = 10;
-    
+
     Personenzug(){
         super();
-        getWagons();
+        this.wagons = 10;
     }
 
     void essen(){
         System.out.println("Mampf Mampf");
-    }
-    
-    public int getWagons() {
-        return wagons;
     }
 }
