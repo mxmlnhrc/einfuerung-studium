@@ -95,7 +95,7 @@ public class Datum {
     public String wochentag() {
         // Berechne Wochentag über tageAbstand zum bekannten Sonntag
         int tageSeitSonntag = tageAbstand(new Datum(1, 1, 1)); // 01.01.0001 war ein Sonntag
-        return Wochentage[((tageSeitSonntag % 7 + 7) % 7) + 1];
+        return Wochentage[((tageSeitSonntag % 7 + 7)% 7) +1];
     }
 
     public static void main(String[] args) {
